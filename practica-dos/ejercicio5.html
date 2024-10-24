@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ejercicio 5</title>
+</head>
+
+<body>
+  <h1>Lista</h1>
+
+  <div id="student-list"></div>
+  <p id="average-grade"></p>
+
+  <script>
+    const students = [
+      { firstName: 'Daniel', lastName: 'Vega', grade: 95 },
+      { firstName: 'David', lastName: 'Coto', grade: 75 },
+      { firstName: 'Maria', lastName: 'Jimenez', grade: 100 },
+      { firstName: 'Gonzalo', lastName: 'Castro', grade: 50 }
+    ];
+
+    const studentListDiv = document.getElementById('student-list');
+    let totalGrade = 0;
+
+    students.forEach(student => {
+      const studentInfo = document.createElement('p');
+      studentInfo.textContent = `${student.firstName} ${student.lastName}`;
+      studentListDiv.appendChild(studentInfo);
+
+      totalGrade += student.grade;
+    });
+
+    const averageGrade = totalGrade / students.length;
+    document.getElementById('average-grade').textContent = `Promedio: ${averageGrade.toFixed(2)}`;
+  </script>
+</body>
+
+</html>

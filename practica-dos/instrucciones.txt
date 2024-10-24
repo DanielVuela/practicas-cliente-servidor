@@ -1,0 +1,33 @@
+Ejercicio 1 Cargas Sociales
+Calcular las deducciones de cargas sociales y el impuesto sobre la renta aplicables al salario según las leyes de Costa Rica, utilizando el lenguaje JavaScript. 
+
+Para lograrlo, debes crear una pagina web donde el usuario ingrese el salario bruto y un boton para realizar el calculo.  Como resultado debe mostrar el monto de las cargas sociales, el monto del impuesto de la renta y el salario neto (despues de las deducciones).
+
+
+Ejercicio 2 FreeCodeCamp
+Realice el siguiente ejercicio de la pagina web freecodecamp: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#review-js-fundamentals-by-building-a-gradebook-app
+
+
+Ejercicio 3  Manipulación del DOM
+Crea un botón en la página que cambie el contenido de un párrafo cuando se le haga clic.
+
+Usa document.getElementById y innerHTML para lograrlo.
+
+
+
+Ejercicio 4 Estructura de control de flujo
+Crea una página que permita al usuario ingresar su edad.
+
+Si el usuario es mayor de 18, mostrar un mensaje de “Eres mayor de edad”.
+
+Si no, mostrar un mensaje de “Eres menor de edad”.
+
+Ejercicio 5 Manipulación de Arreglos
+Crea un arreglo de objetos que contenga información de estudiantes, con propiedades como nombre, apellido, y nota.
+
+Usa un ciclo for o forEach para recorrer el arreglo e imprimir los nombres y apellidos en un div en la página.
+
+Calcula el promedio de las notas y muestra el resultado al final de la lista.
+
+
+

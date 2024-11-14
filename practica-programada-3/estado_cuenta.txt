@@ -1,0 +1,11 @@
+Estado de Cuenta:
+-----------------------------------
+Id: 1 - Descripcion: Super - Monto: 50.75
+Id: 2 - Descripcion: Internet - Monto: 120
+Id: 3 - Descripcion:  - Monto: 75.5
+Id: 4 - Descripcion: Cena en restaurante - Monto: 45.3
+-----------------------------------
+Monto total contado: 291.55
+Monto con Interés (2.6%): 299.1303
+Cashback (0.1%): 0.29155
+Monto Final a Pagar: 298.83875
